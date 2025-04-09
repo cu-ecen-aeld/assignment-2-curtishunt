@@ -2,7 +2,7 @@
 
 # Check number of inputs
 if [ "$#" -ne 2 ]; then
-    echo "ERROR usage is: finder.sh <path to dir> <search pattern>"
+    echo "ERROR! usage is: finder.sh <path to dir> <search pattern>"
     exit 1
 fi
 
